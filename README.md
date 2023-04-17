@@ -7,7 +7,7 @@ This page is hosted on https://peppy-rabanadas-c9908c.netlify.app/
 
 HTML5
 
-## Project structure {#structure}
+## Project structure (#structure)
 
 ```
 ├── homepage.html
