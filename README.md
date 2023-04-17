@@ -1,6 +1,6 @@
 # Introduction to HTML and Git
 
-This page is hosted on https://peppy-rabanadas-c9908c.netlify.app/
+This page is hosted on [Netlify](https://peppy-rabanadas-c9908c.netlify.app/)
 
 ## About
 
