@@ -2,6 +2,13 @@
 
 This page is hosted on [Netlify](https://peppy-rabanadas-c9908c.netlify.app/)
 
+## Table of contents
+
+1. About
+2. Technologies
+3. Project structure
+4. Project description
+
 ## About
 
 This is my first project at Integrify Academy. The aim is to build a small introduction site with which to practice basic semantic html.
@@ -22,7 +29,7 @@ HTML5
 └── sample.text
 ```
 
-### Structure description
+## Project description
 
 All of the actual page info is in two files: index.html and /images/juho työnhaku pakattu.jpg.
 
