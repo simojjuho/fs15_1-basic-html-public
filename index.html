@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <header>
+            <img  src="" alt="My logo">
+            <nav>
+                <ul>
+                    <li><a href="#enquery-form">Enquery form</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#tech-stack">My technologies</a></li>
+                    <li><a href="">Link item</a></li>
+                </ul>
+            </nav>
+            <input type="text" alt="searchbar"/>
+        </header>
+        <main>
+            <section>
+                <h2 id="about-me">About me</h2>
+                <article>
+                    <h3>General information</h3>
+                    <img style="max-width: 500px; border-radius: 50%;" src="images/juho työnhaku pakattu.jpg" alt="">
+                    <p>I'm a Finland based coding student currently living in Orivesi Tampere Metropolitan Area. Originally I come from Oulu, where I spent the first 20 years of my life until I moved to Tampere.</p>
+                    <p>I have tried many things in my life but most previously, before becoming a student, I worked in a grocery store in Kannelmäki, Helsinki, where I quit last september.</p>
+                    <h4>My favourite things on earth:</h4>
+                    <ul>
+                        <li>Tampere</li>
+                        <li>My dog</li>
+                        <li>My wife</li>
+                        <li>God almighty</li>
+                    </ul>
+                    <details>
+                        <summary>The city of Tampere</summary>
+                        <img src="" alt="City of Tampere central square, Keskustori">
+                        <p>Tampere has been the no. 1 most appealing city in Finland for many years.</p>
+                    </details>
+                </article>
+                <article>
+                    <h3 id="tech-stack">Professional skills</h3>
+                    <p>I still have yet to land my first job on the IT branch but I already have gathered some good experience by my own. Here I list some of my main skills.</p>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>GitHub</li>
+                        <li>GitHub Actions</li>
+                    </ul>
+                </article>
+            </section>
+            <section>
+                <h2 id="enquery-form">Enquery form</h2>
+                <p>Would you need someone to make you some kind of a web application or a web site? Pleaso, do <strong>not</strong> hesitate to contact me! My rates are low and I will give you and your order an uncompromised attention!</p>
+                <p>Please fill out the form below, if interested. You will not commit legally to anything by doing so.</p>
+                <form action="">
+                    <fieldset>
+                        <label for="first-name">First name:</label>
+                        <input type="text" name="First name" id="first-name">
+                        <label for="last-name">Last name:</label>
+                        <input type="text" name="Last name" id="last-name"> <br />
+                        <label for="needsText">Tell me about your needs</label> <br />
+                        <textarea name="needs" id="needsText" cols="30" rows="10"></textarea> <br />
+                        <label for="positionSelect">In which position are you in your company?</label>
+                        <select name="position" id="positionSelect">
+                            <option value="0">CEO / entrepreneur</option>
+                            <option value="1">Member of the board</option>
+                            <option value="2">Project manager / other deciding position</option>
+                            <option value="3">Other</option> <!-- If other, an input should appear for specifying purposes, not part of this assignment -->
+                        </select> <br />
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
