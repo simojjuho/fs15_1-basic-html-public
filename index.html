@@ -14,7 +14,13 @@
                     <li><a href="#prices">Prices</a></li>
                 </ul>
             </nav>
-            <input type="text" alt="searchbar"/>
+            <form action="" method="get">
+                <div>                
+                    <label for="searchbar">Search for content: </label>
+                    <input id="searchbar" type="text" placeholder="Search..."/>
+                </div>
+                <button type="submit">Search</button>
+            </form>
         </header>
         <main>
             <section>
@@ -63,19 +69,27 @@
                 <p>Please fill out the form below, if interested. You will not commit legally to anything by doing so.</p>
                 <form action="mailto:juho.simojoki@integrify.io" method="post" enctype="text/plain">
                     <fieldset>
-                        <label for="first-name">First name:</label>
-                        <input type="text" name="First name" id="first-name">
-                        <label for="last-name">Last name:</label>
-                        <input type="text" name="Last name" id="last-name"> <br />
-                        <label for="needsText">Tell me about your needs</label> <br />
-                        <textarea name="needs" id="needsText" cols="30" rows="10"></textarea> <br />
-                        <label for="positionSelect">In which position are you in your company?</label>
-                        <select name="position" id="positionSelect">
-                            <option value="0">CEO / entrepreneur</option>
-                            <option value="1">Member of the board</option>
-                            <option value="2">Project manager / other deciding position</option>
-                            <option value="3">Other</option> <!-- If other, an input should appear for specifying purposes, not part of this assignment -->
-                        </select> <br />
+                        <div>
+                            <label for="name">Your name:</label>
+                            <input type="text" name="First name" id="first-name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="Email address" id="last-name" required> <br />
+                        </div>
+                        <div>
+                            <label for="needsText">Tell me about your needs</label> <br />
+                            <textarea name="needs" id="needsText" cols="30" rows="10" required></textarea> <br />
+                        </div>
+                        <div>    
+                            <label for="positionSelect">In which position are you in your company?</label>
+                            <select name="position" id="positionSelect">
+                                <option value="0">CEO / entrepreneur</option>
+                                <option value="1">Member of the board</option>
+                                <option value="2">Project manager / other deciding position</option>
+                                <option value="3">Other</option> <!-- If other, an input should appear for specifying purposes, not part of this assignment -->
+                            </select> <br />
+                        </div>
                         <button aria-label="submit button" type="submit">Submit</button>
                         <button aria-label="reset button" type="reset">Reset</button>
                     </fieldset>
@@ -85,12 +99,14 @@
                 <h2 id="prices">Prices</h2>
                 <p>Here I have given some starting prices for my services. The final price will depend on the order and the <em>scale of it</em></p>
                 <table>
-                    <tbody>
+                    <thead>
                         <tr>
                             <th scope="col">Number of pages</th>
                             <th scope="col">Interactive content</th>
                             <th scope="col">Starting price</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row">1 - 2</th>
                             <td>None or a little amount (i.e. single form)</td>
